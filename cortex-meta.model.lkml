@@ -1,4 +1,4 @@
-connection: "@{CONNECTION_NAME}"
+connection: "mad_bigquery"
 
 # include explores and other objects
 include: "/explores/**/*.explore"
