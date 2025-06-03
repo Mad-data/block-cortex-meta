@@ -1,16 +1,16 @@
 
 
 constant: CONNECTION_NAME {
-  value: "connection"
+  value: "mad_bigquery"
   export: override_required
 }
 
 constant: GCP_PROJECT_ID {
-  value: "GCP Project ID"
+  value: "madgrowth-data"
   export: override_required
 }
 
 constant: REPORTING_DATASET {
-  value: "Reporting Dataset Name"
+  value: "CORTEX_REPORTING_META_PROD"
   export: override_required
 }
