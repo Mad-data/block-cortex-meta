@@ -8,7 +8,12 @@ view: campaigninsightsdailyagg__placement_details {
   dimension: placement {
     type: string
     sql: platform_position ;;
-  }
+     }
+  dimension: account_name {
+      type: string
+      sql: ${TABLE}.account_name ;;
+    }
+
   dimension: platform {
     type: string
     sql: publisher_platform ;;

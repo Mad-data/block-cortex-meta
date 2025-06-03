@@ -13,6 +13,10 @@ view: campaigninsightsdailyagg {
     type: string
     sql: ${TABLE}.campaign_name ;;
   }
+  dimension: account_name {
+    type: string
+    sql: ${TABLE}.account_name ;;
+  }
   dimension: campaign_id {
     type: number
     hidden: yes
