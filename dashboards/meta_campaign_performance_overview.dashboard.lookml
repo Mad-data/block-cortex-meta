@@ -1325,3 +1325,17 @@
     explore: campaign
     listens_to_filters: [Date]
     field: campaign.name
+
+  - name: Account Name
+    title: Account Name
+    type: field_filter
+    default_value: ''
+    allow_multiple_values: true
+    required: false
+    ui_config:
+      type: advanced
+      display: popover
+      options: []
+    explore: campaigninsightsdailyagg
+    listens_to_filters: []
+    field: campaigninsightsdailyagg.account_name
